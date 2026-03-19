@@ -1,0 +1,10 @@
+num1 = float(input("Digite o primeiro número:"))
+num2 = float(input("Digite o segundo número:"))
+num3 = float(input("Digite o terceiro número:"))
+num4 = float(input("Digite o quarto número:"))
+num5 = float(input("Digite o quinto e último número:"))
+numeros = [num1, num2, num3, num4, num5]
+numeros.sort()
+print("Maior número:", max(numeros))
+print("Menor número:", min(numeros))
+print("Soma total dos números:", sum(numeros))
